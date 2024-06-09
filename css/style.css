@@ -376,6 +376,17 @@ body {
 		transform: translate(-50%, -50%) rotate(360deg);
 	}
 }
+.text p a {
+	color:#242424;
+	cursor: pointer;
+}
+.text p a:hover{
+	color:#585858;
+}
+.text p a:active{
+	color:#505050;
+}
+
 
 
 /*Heshteg*/
