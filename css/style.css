@@ -376,16 +376,6 @@ body {
 		transform: translate(-50%, -50%) rotate(360deg);
 	}
 }
-.text p a {
-	color:#242424;
-	cursor: pointer;
-}
-.text p a:hover{
-	color:#585858;
-}
-.text p a:active{
-	color:#505050;
-}
 
 
 
@@ -450,10 +440,10 @@ video{
 	border: 2px solid silver;
 }
 
-::selection{background:#333333 ; color: #3f4240;}
-::-moz-selection{background:#333333 ; color: #3f4240;}
-::-webkit-selection{background:#333333 ; color: #3f4240;}
-::-ms-selection{background:#333333 ; color: #3f4240;}
+::selection{background:#333333 ; color: white;}
+::-moz-selection{background:#333333 ; color: white;}
+::-webkit-selection{background:#333333 ; color: white;}
+::-ms-selection{background:#333333 ; color: white;}
 
 
 header, footer{
@@ -489,7 +479,67 @@ footer {
 	text-align: center;
 	color:#242424;
 	font-style: italic;
-	
+}
+.text p a {
+	color:#01099c;
+	cursor: pointer;
+}
+.text p a:hover{
+	color:#000672;
+}
+.text p a:active{
+	color:#1a008b;
+}
+.text p q{
+	text-align: center;
+	color:#242424;
+	font-style: italic;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.text p q a {
+	color:#01099c;
+	cursor: pointer;
+}
+.text p q a:hover{
+	color:#000672;
+}
+.text p q a:active{
+	color:#1a008b;
+}
+.text p q{
+	text-align: center;
+	color:#242424;
+	font-style: italic;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.text q a {
+	color:#01099c;
+	cursor: pointer;
+}
+.text q a:hover{
+	color:#000672;
+}
+.text q a:active{
+	color:#1a008b;
+}
+.text p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.text ul li{
+	margin-left: 40px;
+}
+.text ul li a {
+	color:#01099c;
+	cursor: pointer;
+}
+.text ul li a:hover{
+	color:#000672;
+}
+.text ul li a:active{
+	color:#1a008b;
 }
 #page-wrap:after{
 	content: "";
