@@ -378,6 +378,17 @@ body {
 }
 
 
+/*scrolbar*/
+::-webkit-scrollbar{
+	background: url("../img/fon.jpg");
+	width: 10px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #000;
+	border-radius: 20px;
+}
+
+
 
 /*Heshteg*/
 article img{
@@ -541,6 +552,22 @@ footer {
 .text ul li a:active{
 	color:#1a008b;
 }
+.text ol{
+  counter-reset: alpha-list;
+  margin-left: 40px;
+}
+.text ol li a{
+	color:#01099c;
+	cursor: pointer;
+}
+.text ol li a:hover{
+	color:#000672;
+}
+.text ol li a:active{
+	color:#1a008b;
+}
+
+/*footer*/
 #page-wrap:after{
 	content: "";
 	display: block;
