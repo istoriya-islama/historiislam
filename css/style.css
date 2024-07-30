@@ -466,7 +466,7 @@ header {
 	border-bottom: 2px solid silver;
 	padding: 1%;
 }
-@media(min-width: 600px){
+@media(min-width: 700px){
 footer {
 	padding: 1%;
 	border-top: 2px solod silver;
@@ -474,7 +474,7 @@ footer {
 	margin-bottom: 10px;
 }
 }
-@media(max-width: 599px){
+@media(max-width: 699px){
 	footer {
 		padding: 1%;
 		border-top: 5px solod silver;
