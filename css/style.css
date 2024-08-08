@@ -37,14 +37,26 @@ body {
 	font-family: Alegreya, sans-serif;
 }
 #contact{
-	font-size: 1.5em;
-	font-family: Alegreya, sans-serif;
-	margin-left: 10px;
+	float: right;
 }
 .obr{
-	font-size: 1.3em;
-	font-family: Alegreya, sans-serif;
 	float: right;
+}
+@media (min-width: 700px){
+	.obr{
+		margin-right: -4%;
+	}
+	#contact{
+		margin-right: 2%;
+	}
+}
+@media (max-width: 699px){
+	.obr{
+		margin-right: -14%;
+	}
+	#contact{
+		margin-right: 8%;
+	}
 }
 #histori{
 	text-align: center;
@@ -63,6 +75,7 @@ body {
 	margin-top: 10px;
 	border-top: 3px solid rgba(192, 192, 192, 0.836);
 }
+
 #menuH a{
 	padding: 5px;
 	border-radius: 5px;
@@ -412,7 +425,7 @@ hr{
 }
 label{cursor: pointer;}
 a{
-	color: #7d807e;
+	color: #ffffff;
 	text-decoration: none;
 	transition: all.6s ease;
 	-moz-transition: all.6s ease;
@@ -459,19 +472,22 @@ video{
 
 header, footer{
 	width: 98%;
-	background-color: #fff;
 	float: left;
 }
 header {
 	border-bottom: 2px solid silver;
 	padding: 1%;
+	background: url("../img/headerBg.jpg") center center fixed;
+}
+footer {
+	background: url("../img/footerBg.png") fixed;
+	color: white;
 }
 @media(min-width: 700px){
 footer {
 	padding: 1%;
 	border-top: 2px solod silver;
 	margin-top: 10px;
-	margin-bottom: 10px;
 }
 }
 @media(max-width: 699px){
@@ -479,7 +495,6 @@ footer {
 		padding: 1%;
 		border-top: 5px solod silver;
 		margin-top: 5px;
-		margin-bottom: 5px;
 	}
 }
 
@@ -572,7 +587,7 @@ footer {
 	content: "";
 	display: block;
 }
-footer, #page-wrap:after {height: 10px;}
+footer, #page-wrap:after {height: 20px;}
 
 #page-wrap{
 	min-height: 94%;

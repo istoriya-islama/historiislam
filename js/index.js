@@ -24,7 +24,7 @@ function z(){
 }
 
 //img
-var swiper = new Swiper(".mySwiper", {
+/*let swiper = new Swiper(".mySwiper", {
     spaceBetween: 50,
     navigation: {
       nextEl: ".swiper-button-next",
@@ -35,6 +35,6 @@ var swiper = new Swiper(".mySwiper", {
     },
     mousewheel: true,
     keyboard: true,
-  });
+  });*/
 
 
