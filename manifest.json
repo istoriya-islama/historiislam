@@ -1,0 +1,9 @@
+{
+    "name": "История Ислама",
+    "short_name": "История Ислама",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "icon": "img/historiislam.ico"
+    
+}
