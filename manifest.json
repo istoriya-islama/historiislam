@@ -1,25 +1,25 @@
 {
-    "name": "PWA app",
-    "short_name": "pwa",
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#fafafa",
-    "orientation": "portrait-primary",
-    "icons": [
-       {
-        "src": "img/historiislam.ico",
-        "type": "image/x-icon",
-        "sizes": "128x128"
-       },
-       {
-        "src": "img/historiislam.ico",
-        "type": "image/x-icon",
-        "sizes": "144x144"
-       },
-       {
-        "src": "img/historiislam.ico",
-        "type": "image/x-icon",
-        "sizes": "512x512"
-      }
-    ]
+  "background_color": "#ffffff",
+  "description": "История Ислама берёт свое начало от начала пророчества Мухаммада(салаЛлаху алейхи уа саллям) и заканчивается периодом правления Мамлюков.Османцы не были последним халифатом, они принесли в Ислам много нововведений, которые не делали не кто доних",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "История Ислама",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "История Ислама",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "img\\historiislam.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "lang": "ru",
+  "display_override": [
+    "browser",
+    "fullscreen",
+    "standalone",
+    "window-controls-overlay"
+  ]
 }
