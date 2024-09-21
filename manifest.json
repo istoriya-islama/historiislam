@@ -1,9 +1,26 @@
 {
     "name": "История Ислама",
-    "short_name": "История Ислама",
+    "short_name": "pwa",
     "start_url": "/index.html",
     "display": "standalone",
     "orientation": "portrait-primary",
-    "icon": "img/historiislam.ico"
+    "background_color": "#fff",
+    "icons": [
+        {
+            "src": "img/historiislam.ico",
+            "sizes": "512x512",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "img/historiislam.ico",
+            "sizes": "144x144",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "img/historiislam.ico",
+            "sizes": "192x192",
+            "type": "image/x-icon"
+        }
+    ]
     
 }
