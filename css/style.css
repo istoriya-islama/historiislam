@@ -379,6 +379,57 @@ body {
 .text .d p{
 	text-align: center;
 }
+.istoriya-ai{
+	background: #797979;
+	border-radius: 21px;
+	padding: 5%;
+	margin-top: 2%;
+	margin-right: 2%;
+}
+.istoriya-ai .seperator-cover{
+	height: 35%;
+}
+.istoriya-ai .seperator-cover .seperator-cover-left{
+	width: 70%;
+	float: left;
+}
+.istoriya-ai .seperator-cover .seperator-cover-right{
+	width: 30%;
+	float: right;
+}
+.istoriya-ai .seperator-cover .seperator-cover-left h4{
+	float:left;
+	margin-top: 11%;
+	margin-left: -92.5%;
+}
+.istoriya-ai .seperator-cover .seperator-cover-left h1{
+	float: left;
+	margin-top: 7%
+}
+.istoriya-ai .seperator-cover .seperator-cover-right img{
+	margin-top: -10%;
+	filter: drop-shadow(0 0 20px yellow);
+	transition: 0.3s all;
+}
+.istoriya-ai .seperator-cover .seperator-cover-right img:hover{
+	transform: scale(1.1);
+	filter: drop-shadow(0 0 60px yellow);
+}
+.istoriya-ai .seperator-cover .seperator-cover-left .btn{
+	padding: 2%;
+	width: 10%;
+	height: 8%;
+	background: #00000000;
+	transition: 0.3s all;
+	border-radius: 21px;
+	border: 1px solid silver;
+	color: white;
+}
+.istoriya-ai .seperator-cover .seperator-cover-left .btn:hover{
+	transform: scale(1.1);
+	box-shadow: 0px 0px 50px yellow;
+}
+
 
 /*Animation*/
 @keyframes spin{
